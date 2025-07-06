@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# 📱 Aplikasi Expo-Days
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplikasi sederhana berbasis React Native dengan Expo yang menampilkan layout dasar serta bentuk segitiga kustom menggunakan komponen `View`. Cocok untuk belajar dasar-dasar styling dan struktur project React Native dengan TypeScript.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Perkembangan Tugas 
+Tugas 1
+- 📐 Membuat bentuk segitiga dengan manipulasi border
+- 🎯 tambahkan bentuk segitiga, tabung, dan persegi panjang. di dalam persegi panjang itu berisi nama, di dalam tabung itu berisi stambuk
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🛠️ Teknologi yang Digunakan
 
-   ```bash
-   npx expo start
-   ```
+- **React Native** (melalui Expo)
+- **Expo CLI**
+- **TypeScript**
+- **Visual Studio Code** sebagai editor
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📸 Tampilan Aplikasi
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+> 🔵 Segitiga kustom dan tombol hijau dengan teks NIM di tengah
 
-## Get a fresh project
+![Screenshot](https://url-gambar-kamu-di-sini.com) <!-- Ganti dengan URL gambar atau unggah di GitHub -->
 
-When you're ready, run:
+---
+
+## 🔧 Cara Menjalankan di Lokal
 
 ```bash
-npm run reset-project
-```
+# Clone repository ini
+git clone https://github.com/username-kamu/expo-days-app.git
+cd expo-days-app
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Install semua dependency
+npm install
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Jalankan server Expo
+npx expo start
