@@ -8,7 +8,28 @@ export default function Index() {
         justifyContent: "center",
         alignItems: "center",
       }}>
-      {/* Segitiga */}
+      <View
+        style={{
+          backgroundColor: "black",
+          padding: 10,
+          alignItems: "center",
+        }}>
+        <Text style={{ fontSize: 20, color: "white", marginBottom: 4 }}>
+          105841109822
+        </Text>
+        <Text style={{ color: "skyblue", fontWeight: "bold", fontSize: 18 }}>
+          DAYANG AISYAH
+        </Text>
+      </View>
+      <View
+        style={{
+          width: 20,
+          height: 20,
+          backgroundColor: "mediumseagreen",
+          borderRadius: 10,
+          marginBottom: 15,
+        }}
+      />
       <View
         style={{
           borderLeftWidth: 40,
@@ -16,42 +37,42 @@ export default function Index() {
           borderBottomWidth: 60,
           borderLeftColor: "transparent",
           borderRightColor: "transparent",
-          borderBottomColor: "blue",
-          marginTop: 30,
+          borderBottomColor: "mediumseagreen",
+          marginTop: 5,
+          marginBottom: 10,
         }}
       />
-      {/* Tabung dengan Stambuk */}
       <View
         style={{
-          width: 190,
-          height: 50,
-          backgroundColor: "green",
-          borderRadius: 50,
+          width: 50,
+          height: 180,
+          backgroundColor: "mediumseagreen",
+          borderRadius: 30,
           justifyContent: "center",
           alignItems: "center",
-          marginTop: 15,
+          marginBottom: 10,
         }}>
         <Text
           style={{
-            color: "white",
+            color: "yellow",
             fontWeight: "bold",
-            fontSize: 18,
+            fontSize: 15,
             textAlign: "center",
+            transform: [{ rotate: "-90deg" }],
           }}>
           105841109822
         </Text>
       </View>
-      {/* Persegi Panjang dengan Nama */}
       <View
         style={{
-          width: 180,
-          height: 50,
-          backgroundColor: "red",
+          width: 160,
+          height: 60,
+          backgroundColor: "mediumseagreen",
           justifyContent: "center",
           alignItems: "center",
-          marginTop: 15,
+          marginBottom: 24,
         }}>
-        <Text style={{ color: "white", fontWeight: "bold", fontSize: 18 }}>
+        <Text style={{ color: "yellow", fontWeight: "bold", fontSize: 18 }}>
           DAYANG AISYAH
         </Text>
       </View>
