@@ -38,10 +38,22 @@ export default function Index() {
           borderLeftColor: "transparent",
           borderRightColor: "transparent",
           borderBottomColor: "mediumseagreen",
-          marginTop: 5,
-          marginBottom: 10,
+          marginBottom: 15,
         }}
       />
+      <View
+        style={{
+          width: 160,
+          height: 50,
+          backgroundColor: "mediumseagreen",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: 15,
+        }}>
+        <Text style={{ color: "yellow", fontWeight: "bold", fontSize: 18 }}>
+          DAYANG AISYAH
+        </Text>
+      </View>
       <View
         style={{
           width: 50,
@@ -50,7 +62,7 @@ export default function Index() {
           borderRadius: 30,
           justifyContent: "center",
           alignItems: "center",
-          marginBottom: 10,
+          marginBottom: 20,
         }}>
         <Text
           style={{
@@ -61,19 +73,6 @@ export default function Index() {
             transform: [{ rotate: "-90deg" }],
           }}>
           105841109822
-        </Text>
-      </View>
-      <View
-        style={{
-          width: 160,
-          height: 60,
-          backgroundColor: "mediumseagreen",
-          justifyContent: "center",
-          alignItems: "center",
-          marginBottom: 24,
-        }}>
-        <Text style={{ color: "yellow", fontWeight: "bold", fontSize: 18 }}>
-          DAYANG AISYAH
         </Text>
       </View>
     </View>
