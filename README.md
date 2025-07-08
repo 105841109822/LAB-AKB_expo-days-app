@@ -1,12 +1,12 @@
 # 📱 Aplikasi Expo-Days
 
-Aplikasi sederhana berbasis React Native dengan Expo yang menampilkan layout dasar serta bentuk segitiga kustom menggunakan komponen `View`. Cocok untuk belajar dasar-dasar styling dan struktur project React Native dengan TypeScript.
+Pembelajaran Pertemuan:
+1. Aplikasi sederhana berbasis React Native dengan Expo yang menampilkan layout dasar serta bentuk segitiga kustom menggunakan komponen `View`. Cocok untuk belajar dasar-dasar styling dan struktur project React Native dengan TypeScript.
 
 ---
 
 ## 🚀 Perkembangan Tugas 
 Tugas 1
-- 📐 Membuat bentuk segitiga dengan manipulasi border
 - 🎯 tambahkan bentuk segitiga, tabung, dan persegi panjang. di dalam persegi panjang itu berisi nama, di dalam tabung itu berisi stambuk
 
 ---
@@ -22,7 +22,7 @@ Tugas 1
 
 ## 📸 Tampilan Aplikasi
 
-> 🔵 Segitiga kustom dan tombol hijau dengan teks NIM di tengah
+> Tugas 1
 
 ![Screenshot] <!-- Ganti dengan URL gambar atau unggah di GitHub -->
 
