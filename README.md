@@ -18,7 +18,10 @@ Pembelajaran Pertemuan:
 
 ## 📸 Tampilan Aplikasi
 
-> Tugas 1
+> TUGAS 1
+> TUGAS 2
+> TUGAS 3
+> TUGAS 4
 
 ![Screenshot] <!-- Ganti dengan URL gambar atau unggah di GitHub -->
 
