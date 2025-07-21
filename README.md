@@ -5,10 +5,6 @@ Pembelajaran Pertemuan:
 
 ---
 
-## 🚀 Perkembangan Tugas 
-Tugas 1
-- 🎯 tambahkan bentuk segitiga, tabung, dan persegi panjang. di dalam persegi panjang itu berisi nama, di dalam tabung itu berisi stambuk
-
 ---
 
 ## 🛠️ Teknologi yang Digunakan
