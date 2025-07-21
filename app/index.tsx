@@ -1,6 +1,5 @@
 import React from "react";
-import { Image, SafeAreaView, ScrollView, Text, View } from "react-native";
-import GridComponent from "./components/GridComponent";
+import { SafeAreaView, ScrollView, Text, View } from "react-native";
 
 export default function Index() {
   return (
@@ -11,124 +10,136 @@ export default function Index() {
           paddingVertical: 30,
           paddingHorizontal: 10,
         }}>
-        {/* Header - NIM dan Nama */}
-        <View
+        {/* PRAKTIKUM SEBELUMNYA */}
+        {/* <Text
           style={{
-            backgroundColor: "black",
-            padding: 10, // padding untuk memberikan ruang di sekitar konten
-            alignItems: "center",
-            marginBottom: 20, // margin bawah untuk memberikan ruang di bawah header
-          }}>
-          <Text style={{ fontSize: 20, color: "white", marginBottom: 4 }}>
-            105841109822
-          </Text>
-          <Text style={{ color: "skyblue", fontWeight: "bold", fontSize: 18 }}>
-            DAYANG AISYAH
-          </Text>
-        </View>
-
-        {/* Bulatan Kecil */}
-        <View
-          style={{
-            width: 20,
-            height: 20,
-            backgroundColor: "mediumseagreen",
-            borderRadius: 10, // Membuat bulatan di sekitar konten
-            marginBottom: 15,
+            fontFamily: "PlayfairDisplay-Italic",
+            fontSize: 18,
+            color: "black",
+            fontWeight: "bold",
           }}
-        />
+        >
+          MOBILE LEGEND
+        </Text> */}
 
-        {/* Segitiga */}
-        <View
-          style={{
-            borderLeftWidth: 40, // border adalah jarak antara sisi kiri dan kanan segitiga
-            borderRightWidth: 40,
-            borderBottomWidth: 60,
-            borderLeftColor: "transparent",
-            borderRightColor: "transparent",
-            borderBottomColor: "mediumseagreen",
-            marginBottom: 15,
-          }}
-        />
-
-        {/* Persegi Panjang dengan Nama */}
-        <View
-          style={{
-            width: 160, // Lebar
-            height: 50, // tinggi
-            backgroundColor: "mediumseagreen",
-            justifyContent: "center",
-            alignItems: "center", // berfungsi untuk menempatkan teks di tengah persegi panjang
-            marginBottom: 15,
-          }}>
-          <Text style={{ color: "yellow", fontWeight: "bold", fontSize: 18 }}>
-            DAYANG AISYAH
-          </Text>
-        </View>
-
-        {/* Bentuk Pil Vertikal dengan NIM */}
-        <View
-          style={{
-            width: 50,
-            height: 180,
-            backgroundColor: "mediumseagreen",
-            borderRadius: 30,
-            justifyContent: "center",
-            alignItems: "center",
-            marginBottom: 20,
-          }}>
+        {/* TUGAS 4 FONTS*/}
+        <View style={{ marginTop: 30, width: "100%" }}>
           <Text
             style={{
-              color: "yellow",
+              fontFamily: "PlayfairDisplay",
+              fontSize: 26,
+              color: "blue",
               fontWeight: "bold",
-              fontSize: 15,
               textAlign: "center",
-              transform: [{ rotate: "-90deg" }],
+              marginBottom: 20,
             }}>
-            105841109822
+            NAMA-NAMA TEMAN SAYA 5 KEATAS & 5 KEBAWAH DARI NAMA DI ABSENSI
+          </Text>
+
+          {/* NAMA-NAMA TEMAN SAYA 5 KEATAS & 5 KEBAWAH DARI NAMA DI ABSENSI */}
+          <Text
+            style={{
+              fontFamily: "Roboto",
+              fontSize: 25,
+              marginBottom: 10,
+            }}>
+            12. 10584109222 - Besse Taleha
+          </Text>
+
+          <Text
+            style={{
+              fontFamily: "Montserrat",
+              fontSize: 25,
+              marginBottom: 10,
+            }}>
+            13. 10584109322 - Dinda Safitri
+          </Text>
+
+          <Text
+            style={{
+              fontFamily: "DancingScript",
+              fontSize: 25,
+              marginBottom: 10,
+            }}>
+            14. 10584109422 - MUH. FARREL APTA INDRATAMA
+          </Text>
+
+          <Text
+            style={{
+              fontFamily: "BitcountGridSingle",
+              fontSize: 25,
+              marginBottom: 10,
+            }}>
+            15. 10584109622 - FAUZAN AZHARI RAHMAN
+          </Text>
+
+          <Text
+            style={{
+              fontFamily: "Inter",
+              fontSize: 25,
+              marginBottom: 20,
+            }}>
+            16. 10584109722 - MUH. FADHIL AHMAD
+          </Text>
+
+          {/* NAMA SAYA SENDIRI */}
+          <Text
+            style={{
+              fontFamily: "SpaceMono-Regular",
+              fontSize: 30,
+              fontWeight: "bold",
+            }}>
+            17. 105841109822 - DAYANG AISYAH
+          </Text>
+
+          {/* NAMA TEMAN-TEMAN SAYA 5 KE BAWAH DARI NAMA DI ABSENSI */}
+          <Text
+            style={{
+              fontFamily: "Monofett",
+              fontSize: 26,
+              marginTop: 20,
+              marginBottom: 10,
+            }}>
+            18. 10584110022 - ILFAUZA FEBRIANTY FAISAL
+          </Text>
+
+          <Text
+            style={{
+              fontFamily: "RubikDirt",
+              fontSize: 24,
+              marginBottom: 10,
+            }}>
+            19. 10584110322 - SA'BAN
+          </Text>
+
+          <Text
+            style={{
+              fontFamily: "TiltNeon",
+              fontSize: 24,
+              marginBottom: 10,
+            }}>
+            20. 10584110422 - NUR FADILLAH SARI
+          </Text>
+
+          <Text
+            style={{
+              fontFamily: "FasterOne",
+              fontSize: 24,
+              marginBottom: 10,
+            }}>
+            21. 10584110622 - Wa Nanda Sulystrian
+          </Text>
+
+          <Text
+            style={{
+              fontFamily: "PTSans",
+              fontSize: 24,
+              marginBottom: 10,
+            }}>
+            22. 10584110722 - MUH. TEGAR AL FIKRI
           </Text>
         </View>
-
-        {/* Gambar + GIF */}
-        <View
-          style={{
-            flexDirection: "row",
-            justifyContent: "center",
-            flexWrap: "wrap",
-            gap: 10,
-            marginBottom: 30,
-          }}>
-          {/* Gambar Profil */}
-          <Image
-            // image komponen untuk menampilkan gambar ataupun GIF
-            style={{
-              width: 200,
-              height: 200,
-              margin: 10,
-              borderRadius: 10,
-              marginRight: 20,
-            }}
-            source={{
-              uri: "https://simak.unismuh.ac.id/upload/mahasiswa/105841109822_.jpg",
-            }}
-          />
-
-          {/* Gambar dengan GIF */}
-          <Image
-            style={{
-              width: 200,
-              height: 200,
-              margin: 10,
-              borderRadius: 10,
-            }}
-            source={{
-              uri: "https://uploads-us-west-2.insided.com/figma-en/attachment/7105e9c010b3d1f0ea893ed5ca3bd58e6cec090e.gif",
-            }}
-          />
-        </View>
-
-        {/* Grid Gambar 3x3 */}
-        <GridComponent />
+        {/* <GridComponent /> */}
       </ScrollView>
     </SafeAreaView>
   );
